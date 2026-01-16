@@ -19,7 +19,7 @@ app.add_middleware(
 
 @app.get('/')
 def getHome():
-    return "welcome to Code...."
+    return "welcome to HCL tech here "
 
 # @app.get('/newPage')
 # def getData():
