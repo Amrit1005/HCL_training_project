@@ -17,6 +17,7 @@ app.add_middleware(
 #     product(id=4,name='Laptop',description='Dell',price=45000,quantity=100)
 #     ]
 
+# new changes
 @app.get('/')
 def getHome():
     return "welcome to HCL tech here "
